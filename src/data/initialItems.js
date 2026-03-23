@@ -1,0 +1,46 @@
+export const initialItems = [
+    { id: 1, phase: "Aperitivo", category: "Drank", name: "Prosecco", qty: 8, unit: "flessen", price: 8, bought: false, notes: "Voor limoncello spritz" },
+    { id: 2, phase: "Aperitivo", category: "Drank", name: "Limoncello", qty: 2, unit: "flessen", price: 14, bought: false, notes: "Voor spritz" },
+    { id: 3, phase: "Aperitivo", category: "Drank", name: "Bruiswater", qty: 4, unit: "flessen", price: 2.25, bought: false, notes: "Voor spritz" },
+    { id: 4, phase: "Aperitivo", category: "Drank", name: "Citroenen", qty: 6, unit: "stuks", price: 0.75, bought: false, notes: "Voor garnish" },
+    { id: 5, phase: "Aperitivo", category: "Drank", name: "IJs", qty: 5, unit: "zakken", price: 2, bought: false, notes: "Veel ijsblokjes" },
+
+    { id: 6, phase: "Aperitivo", category: "Eten", name: "Charcuterie", qty: 1.8, unit: "kg", price: 22, bought: false, notes: "Ham / salami" },
+    { id: 7, phase: "Aperitivo", category: "Eten", name: "Kaas", qty: 1.5, unit: "kg", price: 16, bought: false, notes: "Verschillende soorten" },
+    { id: 8, phase: "Aperitivo", category: "Eten", name: "Olijven", qty: 5, unit: "bakjes", price: 2.5, bought: false, notes: "" },
+    { id: 9, phase: "Aperitivo", category: "Eten", name: "Grissini", qty: 5, unit: "verpakkingen", price: 1.75, bought: false, notes: "" },
+
+    { id: 10, phase: "Antipasti", category: "Drank", name: "Witte wijn", qty: 4, unit: "flessen", price: 6.5, bought: false, notes: "Bij antipasti" },
+    { id: 11, phase: "Antipasti", category: "Drank", name: "Rode wijn", qty: 3, unit: "flessen", price: 6, bought: false, notes: "Bij antipasti / primi" },
+    { id: 12, phase: "Antipasti", category: "Drank", name: "San Pellegrino", qty: 5, unit: "flessen", price: 2.5, bought: false, notes: "Bruisend water" },
+    { id: 13, phase: "Antipasti", category: "Drank", name: "Acqua Panna", qty: 5, unit: "flessen", price: 2.3, bought: false, notes: "Plat water" },
+
+    { id: 14, phase: "Antipasti", category: "Eten", name: "Tomaten", qty: 2.5, unit: "kg", price: 4.5, bought: false, notes: "Voor caprese / bruschetta" },
+    { id: 15, phase: "Antipasti", category: "Eten", name: "Mozzarella", qty: 2, unit: "kg", price: 9.5, bought: false, notes: "Voor caprese" },
+    { id: 16, phase: "Antipasti", category: "Eten", name: "Verse basilicum", qty: 8, unit: "plantjes", price: 1.6, bought: false, notes: "" },
+    { id: 17, phase: "Antipasti", category: "Eten", name: "Ciabatta / stokbrood", qty: 10, unit: "broden", price: 1.8, bought: false, notes: "Voor bruschetta" },
+    { id: 18, phase: "Antipasti", category: "Eten", name: "Knoflook", qty: 3, unit: "bollen", price: 0.8, bought: false, notes: "" },
+    { id: 19, phase: "Antipasti", category: "Eten", name: "Olijfolie", qty: 2, unit: "flessen", price: 7, bought: false, notes: "Voor meerdere gerechten" },
+
+    { id: 20, phase: "Primi Piatti", category: "Eten", name: "Pasta", qty: 2.5, unit: "kg", price: 4.5, bought: false, notes: "100g droge pasta p.p." },
+    { id: 21, phase: "Primi Piatti", category: "Eten", name: "Tomatensaus / passata", qty: 2, unit: "liter", price: 3.5, bought: false, notes: "" },
+    { id: 22, phase: "Primi Piatti", category: "Eten", name: "Pesto", qty: 2, unit: "potten", price: 3, bought: false, notes: "Of zelf maken" },
+    { id: 23, phase: "Primi Piatti", category: "Eten", name: "Aubergine", qty: 5, unit: "stuks", price: 1.25, bought: false, notes: "Voor vegetarische optie" },
+    { id: 24, phase: "Primi Piatti", category: "Eten", name: "Burrata", qty: 10, unit: "bollen", price: 2.5, bought: false, notes: "Extra / topping" },
+    { id: 25, phase: "Primi Piatti", category: "Eten", name: "Parmezaan", qty: 0.5, unit: "kg", price: 18, bought: false, notes: "" },
+    { id: 26, phase: "Primi Piatti", category: "Eten", name: "Extra basilicum", qty: 2, unit: "bakjes", price: 1.75, bought: false, notes: "" },
+
+    { id: 27, phase: "Dolci", category: "Drank", name: "Prosecco", qty: 4, unit: "flessen", price: 8, bought: false, notes: "Voor sgroppino" },
+    { id: 28, phase: "Dolci", category: "Drank", name: "Wodka", qty: 1, unit: "fles", price: 17, bought: false, notes: "Voor sgroppino / espresso martini" },
+    { id: 29, phase: "Dolci", category: "Eten", name: "Citroensorbet", qty: 3, unit: "liter", price: 7, bought: false, notes: "Voor sgroppino" },
+    { id: 30, phase: "Dolci", category: "Eten", name: "Pastel de nata", qty: 30, unit: "stuks", price: 1.1, bought: false, notes: "1–2 p.p." },
+    { id: 31, phase: "Dolci", category: "Eten", name: "Cantuccini", qty: 3, unit: "pakken", price: 3.5, bought: false, notes: "Optioneel" },
+    { id: 32, phase: "Dolci", category: "Eten", name: "Chocolaatjes", qty: 24, unit: "stuks", price: 0.45, bought: false, notes: "Optioneel" },
+
+    { id: 33, phase: "Digestivo", category: "Drank", name: "Limoncello", qty: 2, unit: "flessen", price: 14, bought: false, notes: "Shots" },
+    { id: 34, phase: "Afterparty", category: "Drank", name: "Amaretto", qty: 2, unit: "flessen", price: 18, bought: false, notes: "Voor amaretto sour" },
+    { id: 35, phase: "Afterparty", category: "Drank", name: "Kahlúa", qty: 1, unit: "fles", price: 18, bought: false, notes: "Voor espresso martini" },
+    { id: 36, phase: "Afterparty", category: "Drank", name: "Suikersiroop", qty: 1, unit: "fles", price: 4, bought: false, notes: "" },
+    { id: 37, phase: "Afterparty", category: "Drank", name: "Espresso shots / cold brew", qty: 20, unit: "shots", price: 0.6, bought: false, notes: "Voor espresso martini" },
+    { id: 38, phase: "Afterparty", category: "Eten", name: "Late night pizza", qty: 4, unit: "pizza's", price: 11, bought: false, notes: "Optioneel" },
+  ];
