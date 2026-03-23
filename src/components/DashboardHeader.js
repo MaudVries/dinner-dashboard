@@ -11,10 +11,10 @@ export default function DashboardHeader({
           06/06/2026
         </p>
         <h1 className="text-4xl font-semibold tracking-tight md:text-5xl">
-          23 Dinner Dashboard
+          Maud's 23 Dinner Dashboard
         </h1>
         <p className="mt-2 text-stone-500">
-          Voor budget, boodschappen- en To Do lijst — allemaal op één plek.
+          Voor budget, boodschappen- en To Do lijstjes
         </p>
       </div>
 
